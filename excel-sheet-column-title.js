@@ -18,3 +18,12 @@ https: var convertToTitle = function(col) {
   }
   return r;
 };
+
+// var convertToTitle = function(n) {
+//   const digits = [];
+//   while (n > 0) {
+//     digits.unshift((n - 1) % 26);
+//     n = Math.trunc((n - 1) / 26);
+//   }
+//   return String.fromCharCode(...digits.map(d => d + 65));
+// };
